@@ -5,12 +5,21 @@ import './App.css'
 import { Postcard } from './components'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <>
-    <Postcard/>
-    </>
+    <div className='post-grid'>
+      <Postcard post={{
+        title: "Hello World",
+        description: "Lorem ispum",
+        id: 1
+      }} />
+      <Postcard id={2} />
+      <Postcard id={3} />
+      <Postcard id={4} />
+      <Postcard id={5} />
+      <Postcard id={6} />
+    </div>
   )
 }
 
