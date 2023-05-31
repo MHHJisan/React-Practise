@@ -10,11 +10,15 @@ export const Home = () => {
                     description: " lorem  ",
                     id: 1
                 }} />
-                <Postcard id={2} />
-                <Postcard id={3} />
-                <Postcard id={4} />
-                <Postcard id={5} />
-                <Postcard id={6} />
+                <Postcard post={{
+                    title: "Hello World",
+                    // description: " lorem  ",
+                    id: 2
+                }} />
+                <Postcard />
+                <Postcard />
+                <Postcard />
+                <Postcard />
             </div>
         </BaseLayout>
     )

@@ -5,8 +5,8 @@ export const BaseLayout = (props) => {
             <a href="/">TechRA</a>
             <header className="header">
                 <a href="/">Home</a>
-                <a href="../pages/About"> About</a>
-                <a href="./pages/Contact">Contact</a>
+                <a href="/pages/About"> About</a>
+                <a href="/pages/Contact">Contact</a>
             </header>
             <main>
                 {props.children}
