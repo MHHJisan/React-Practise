@@ -1,8 +1,10 @@
+import "./BaseLayout.css"
 export const BaseLayout = (props) => {
     return (
         <>
-            <header>
-                <a href="/">TechRA</a>
+            <a href="/">TechRA</a>
+            <header className="header">
+                <a href="/">Home</a>
                 <a href="../pages/About"> About</a>
                 <a href="./pages/Contact">Contact</a>
             </header>
